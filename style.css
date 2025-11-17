@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(kepek/pizzakep.jpg);
+}

@@ -6,5 +6,91 @@ body{
 header img{
     width: 100vw;
     height: 70vh;
-    background-image: url(kepek/pizzakep.jpg);
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 80vh;
+}
+
+.leiras{
+    height: 30vh;
+    background-color: rgb(44, 42, 42);
+    color: white;
+}
+
+.menuleiras{
+    height: 40vh;
+    background-color: black;
+    color: white;
+}
+
+.pizzeria{
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.kezdolap{
+    position: absolute;
+    top: 2%;
+    right: 23%;
+    color: white;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+.kezdolap:hover{
+    background-color: rgb(255, 255, 0, 0.5) ;
+}
+
+.menu{
+    position: absolute;
+    top: 2%;
+    right: 18%;
+    color: white;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+.menu:hover{
+    background-color: rgb(255, 255, 0, 0.5) ;
+}
+
+.rolunk{
+    position: absolute;
+    top: 2%;
+    right: 12%;
+    color: white;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+.rolunk:hover{
+    background-color: rgb(255, 255, 0, 0.5) ;
+}
+
+.kapcsolat{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    color: white;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+.kapcsolat:hover{
+    background-color: rgb(255, 255, 0, 0.5) ;
 }

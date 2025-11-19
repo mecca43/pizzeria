@@ -3,12 +3,14 @@ body{
     padding: 0;
 }
 
-header img{
+header{
     width: 100vw;
-    height: 70vh;
+    height: 45vh;
     margin: 0;
     padding: 0;
-    
+    background-image: url(/kepek/pizzakep.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 header{
@@ -18,20 +20,71 @@ header{
     padding: 0;
 }
 
-main{
-    height: 80vh;
-}
 
 .leiras{
-    height: 30vh;
-    background-color: rgb(44, 42, 42);
+    height: 35vh;
+    background-color: rgb(34, 34, 34);
     color: white;
+    display: flex;
 }
 
+.leirasnagycim{
+
+}
+
+.leiraskicsi{
+
+}
+
+.leiraszoveg{
+    justify-content: right;
+}
+
+
+.spec{
+    height: 80vh;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    
+}
+
+.speccim{
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+.specalcim{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(158, 158, 158);
+}
 .menuleiras{
     height: 40vh;
     background-color: black;
     color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menucim{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.menualcim{
+    color: rgb(158, 158, 158);
+    font-size: 20px;
+}
+
+.menuszoveg{
+    margin-left: 25%;
+    margin-right: 25%;
+    color: rgb(rgb(148, 44, 44));
 }
 
 .pizzeria{
@@ -46,10 +99,11 @@ main{
 .kezdolap{
     position: absolute;
     top: 2%;
-    right: 23%;
+    right: 25%;
     color: white;
-    font-size: 0.8em;
-    text-transform: capitalize;
+    font-size: 0.7em;
+    text-transform: uppercase;  
+    
 }
 
 .kezdolap:hover{
@@ -59,10 +113,11 @@ main{
 .menu{
     position: absolute;
     top: 2%;
-    right: 18%;
-    color: white;
-    font-size: 0.8em;
-    text-transform: capitalize;
+    right: 20%;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 0.7em;
+    text-transform: uppercase;
+    
 }
 
 .menu:hover{
@@ -72,10 +127,11 @@ main{
 .rolunk{
     position: absolute;
     top: 2%;
-    right: 12%;
-    color: white;
-    font-size: 0.8em;
-    text-transform: capitalize;
+    right: 13%;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 0.7em;
+    text-transform: uppercase;
+    
 }
 
 .rolunk:hover{
@@ -85,10 +141,10 @@ main{
 .kapcsolat{
     position: absolute;
     top: 2%;
-    right: 5%;
-    color: white;
-    font-size: 0.8em;
-    text-transform: capitalize;
+    right: 4%;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 0.7em;
+    text-transform: uppercase;
 }
 
 .kapcsolat:hover{

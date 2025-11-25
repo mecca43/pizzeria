@@ -29,15 +29,41 @@ header{
 }
 
 .leirasnagycim{
+    position: absolute;
+    top: 53%;
+    right: 65%;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
 
+    
 }
 
 .leiraskicsi{
-
+    position: absolute;
+    top: 57%;
+    right: 65%;
+    font-size: 18px;
+    color: rgb(158, 158, 158);
 }
 
 .leiraszoveg{
-    justify-content: right;
+    position: absolute;
+    top: 53%;
+    margin-left: 38%;
+    margin-right: 18%;
+    color: rgb(179, 179, 179);
+    font-size: 1.2em;
+}
+
+.telefon{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    font-size: 20px;
+    right: 36%;
+    
 }
 
 
@@ -67,6 +93,8 @@ header{
     color: white;
     text-align: center;
     padding-top: 30px;
+    font-size: 1.2em;
+    
 }
 
 .menucim{
@@ -84,7 +112,7 @@ header{
 .menuszoveg{
     margin-left: 25%;
     margin-right: 25%;
-    color: rgb(rgb(148, 44, 44));
+    color: rgb(201, 201, 201);
 }
 
 .pizzeria{

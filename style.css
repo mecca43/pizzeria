@@ -20,6 +20,50 @@ header{
     padding: 0;
 }
 
+.headercim{
+    display: flex;
+    justify-content: right;
+    gap: 1%;
+    margin-right: 4%;
+}
+
+.cuccok{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 5%;
+}
+
+.pizza{
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 1% 3% 1% 3%;
+}
+ 
+.pizza:hover{
+    background-color: rgb(255, 255, 0, 0.5);
+}
+ 
+.menü{
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 1% 4% 1% 4%;
+}
+ 
+.menü:hover{
+    background-color: rgb(255, 255, 0, 0.5);
+}
+ 
+.italok{
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 1% 3% 1% 3%;
+}
+ 
+.italok:hover{
+    background-color: rgb(255, 255, 0, 0.5);
+}
+
 
 .leiras{
     height: 35vh;
@@ -68,7 +112,7 @@ header{
 
 
 .spec{
-    height: 80vh;
+    height: auto;
     background-color: rgb(34, 34, 34);
     color: white;
     
@@ -125,9 +169,6 @@ header{
 }
 
 .kezdolap{
-    position: absolute;
-    top: 2%;
-    right: 25%;
     color: white;
     font-size: 0.7em;
     text-transform: uppercase;  
@@ -139,9 +180,6 @@ header{
 }
 
 .menu{
-    position: absolute;
-    top: 2%;
-    right: 20%;
     color: rgb(255, 255, 255, 0.7);
     font-size: 0.7em;
     text-transform: uppercase;
@@ -153,9 +191,6 @@ header{
 }
 
 .rolunk{
-    position: absolute;
-    top: 2%;
-    right: 13%;
     color: rgb(255, 255, 255, 0.7);
     font-size: 0.7em;
     text-transform: uppercase;
@@ -167,9 +202,6 @@ header{
 }
 
 .kapcsolat{
-    position: absolute;
-    top: 2%;
-    right: 4%;
     color: rgb(255, 255, 255, 0.7);
     font-size: 0.7em;
     text-transform: uppercase;
@@ -177,4 +209,46 @@ header{
 
 .kapcsolat:hover{
     background-color: rgb(255, 255, 0, 0.5) ;
+}
+
+.speckepek{
+    display: grid;
+    gap: 3%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "pizzaa pizzaa voros"
+    "pizzaa pizzaa voros"
+    "vegyes pizzaaa voros"
+
+    "vegyes pizzaaa elo"
+    ;
+}
+
+.speckepek img{
+    width: 100%;
+    height: 100%;
+}
+
+.pizzaa{
+    grid-area: pizzaa;
+}
+
+.pizzaaa{
+    grid-area: pizzaaa;
+    height: 60%;
+}
+
+.vegyes{
+    grid-area: vegyes;
+    height: 60%;
+}
+
+.voros{
+    grid-area: voros;
+}
+
+.elo{
+    grid-area: elo;
+    height: 62%;
 }

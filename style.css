@@ -137,6 +137,7 @@ header{
     text-align: center;
     padding-top: 30px;
     font-size: 1.2em;
+    padding-bottom: 10%;
     
 }
 
@@ -290,8 +291,19 @@ footer{
 
 .nyitva{
     text-align: center;
-    position: absolute;
-    left: 40%;
+    position: relative;
+    left: 34%;
+    text-transform: uppercase;
+    width: 15%;
+}
+
+.footcim{
+    text-transform: uppercase;
+    width: 35%;
+    padding-top: 5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
 }
 
 .row {

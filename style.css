@@ -20,11 +20,19 @@ header{
     padding: 0;
 }
 
+.menu:visited, .rolunk:visited, .kapcsolat:visited{
+    color: rgb(210, 210, 210);
+}
+
+a{
+    text-decoration: none;
+}
+
 .headercim{
     display: flex;
     justify-content: right;
     gap: 1%;
-    margin-right: 4%;
+    padding-top: 2%;
 }
 
 .cuccok{
@@ -104,9 +112,9 @@ header{
     text-transform: uppercase;
     font-weight: bold;
     position: absolute;
-    top: 70%;
     font-size: 20px;
-    right: 36%;
+    margin-top: 3%;
+    color: white;
     
 }
 
@@ -161,8 +169,7 @@ header{
 
 .pizzeria{
     position: absolute;
-    top: 2%;
-    left: 3%;
+    left: 5%;
     color: white;
     font-weight: bold;
     
@@ -232,12 +239,13 @@ header{
 .speckepek img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .pizzaa{grid-area: pizzaa;}
 .pizzaaa{grid-area: pizzaaa;height: 55%;}
 .vegyes{grid-area: vegyes;height: 55%;}
-.voros{grid-area: voros; object-fit:cover;}
+.voros{grid-area: voros;}
 .elo{grid-area: elo;height: 50%;}
 
 .pizzaa p{
@@ -279,20 +287,19 @@ header{
 footer{
     background-color: black;
     color: white;
+    display: flex;
 }
 
 .nyitvatartás{
-    width: 260px;
+    width: 20%;
     padding: 15px;
     font-size: 16px;
-    margin: 0 auto;
-
+    margin-left: 4%;
+    margin-top: 4%;
 }
 
 .nyitva{
     text-align: center;
-    position: relative;
-    left: 34%;
     text-transform: uppercase;
     width: 15%;
 }
@@ -309,6 +316,7 @@ footer{
 .row {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     padding: 8px 0;
     border-bottom: 1px solid #333;
     color: rgb(255, 255, 255, 0.7);

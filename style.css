@@ -4,7 +4,6 @@ body{
 }
 
 header{
-    width: 100vw;
     height: 45vh;
     margin: 0;
     padding: 0;
@@ -20,12 +19,9 @@ header{
     padding: 0;
 }
 
-.menu:visited, .rolunk:visited, .kapcsolat:visited{
-    color: rgb(210, 210, 210);
-}
-
 a{
     text-decoration: none;
+    color: white;
 }
 
 .headercim{
@@ -33,6 +29,7 @@ a{
     justify-content: right;
     gap: 1%;
     padding-top: 2%;
+    padding-right: 3%;
 }
 
 .cuccok{
@@ -187,7 +184,7 @@ a{
 }
 
 .menu{
-    color: rgb(255, 255, 255, 0.7);
+    color:   rgb(255, 255, 255, 0.7)!important;
     font-size: 0.7em;
     text-transform: uppercase;
     
@@ -324,4 +321,24 @@ footer{
   
   .row:last-child {
     border-bottom: none;
+  }
+
+  .jobbfoot{
+    margin-top: 4%;
+    width: 15%;
+    padding: 1%;
+    line-height: 1.5;
+  }
+
+  .footnagy{
+    text-transform: uppercase;
+  }
+
+  .foglalas{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .footszoveg{
+    color: rgb(255, 255, 255, 0.7);
   }

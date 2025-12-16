@@ -228,7 +228,6 @@ a{
     "pizzaa pizzaa voros"
     "vegyes pizzaaa voros"
     "vegyes pizzaaa voros"
-    "vegyes pizzaaa voros"
     "vegyes pizzaaa elo"
     ;
 }
@@ -239,47 +238,25 @@ a{
     object-fit: cover;
 }
 
-.pizzaa{grid-area: pizzaa;}
-.pizzaaa{grid-area: pizzaaa;height: 55%;}
-.vegyes{grid-area: vegyes;height: 55%;}
-.voros{grid-area: voros;}
-.elo{grid-area: elo;height: 50%;}
+.pizzaa{grid-area: pizzaa;position: relative;}
+.pizzaaa{grid-area: pizzaaa;height: 55%;position: relative;}
+.vegyes{grid-area: vegyes;height: 55%;position: relative;}
+.voros{grid-area: voros;position: relative;}
+.elo{grid-area: elo;height: 54%;position: relative;}
 
-.pizzaa p{
-    position: relative;
-    bottom: 14%;
-    left: 46%;
-    font-size: 1.3em;
+.pizzaa p, .vegyes p, .voros p, .elo p, .pizzaaa p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.3rem;
 }
 
-.pizzaaa p{
-    position: relative;
-    bottom: 20%;
-    left: 42%;
-    font-size: 1.3em;
-}
-
-.vegyes p{
-    position: relative;
-    bottom: 20%;
-    left: 4%;
-    font-size: 1.1em;
-}
-
-.voros p{
-    position: relative;
-    bottom: 12%;
-    left: 6%;
-    font-size: 1.2em;
-    
-}
-
-.elo p{
-    position: relative;
-    bottom: 22%;
-    left: 40%;
-    font-size: 1.1em;
-}
 
 footer{
     background-color: black;

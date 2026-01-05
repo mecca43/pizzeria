@@ -349,13 +349,43 @@ footer{
     margin-bottom: 0;
   }
 
+  .headercim li::after {
+  content: "/";
+  position: absolute;
+  right: 0;
+  color: #ccc;
+}
+
+.menu li:last-child::after {
+  content: "";
+}
+
+
   @media (max-width: 900px){
     .leiraszoveg{ font-size: 1.1rem; margin-right: 5%; }
     .menuszoveg{margin-left: 10%; margin-right: 10%;}
     .pizzaa p, .vegyes p, .voros p, .elo p, .pizzaaa p{font-size: 1rem; padding-bottom: 5%;}
     .jobbfoot{line-height: 1.2;}
+    .kezdolap, .menu, .rolunk, .kapcsolat{align-items: center;}
   }
 
-  @media (max-width: 660px){
+@media (max-width: 665px){
    .leirasnagycim{font-size: 1.3rem;}
-  }
+}
+
+
+@media (max-width: 580px){
+    .leirasnagycim{font-size: 1.2rem;}
+    .leiraszoveg{font-size: 1rem; margin-right: 3%;}
+}
+
+@media (max-width:600px){
+    .telefon{font-size: 1.2rem;}
+}
+
+@media (max-width: 550px){
+    .leirasnagycim{top: 47%; right: 3%; font-size: 1.7rem;}
+    .leiraskicsi{top: 50%; right: 5%; font-size: 1.3rem;}
+    .leiraszoveg{margin-left: 5%; font-size: 1.2rem;}
+    .telefon{font-size: 1.4rem;}
+   }

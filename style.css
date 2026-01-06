@@ -172,10 +172,18 @@ a{
     
 }
 
+.fejlec{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin-right: 5%;
+}
+
 .kezdolap{
     color: white;
     font-size: 0.7em;
     text-transform: uppercase;  
+    display: flex;
     
 }
 
@@ -187,6 +195,7 @@ a{
     color:   rgb(255, 255, 255, 0.7);
     font-size: 0.7em;
     text-transform: uppercase;
+    display: flex;
     
 }
 
@@ -198,6 +207,7 @@ a{
     color: rgb(255, 255, 255, 0.7);
     font-size: 0.7em;
     text-transform: uppercase;
+    display: flex;
     
 }
 
@@ -206,6 +216,7 @@ a{
 }
 
 .kapcsolat{
+    display: flex;
     color: rgb(255, 255, 255, 0.7);
     font-size: 0.7em;
     text-transform: uppercase;
@@ -349,14 +360,13 @@ footer{
     margin-bottom: 0;
   }
 
-  .headercim li::after {
+  h2::after {
   content: "/";
-  position: absolute;
   right: 0;
   color: #ccc;
 }
 
-.menu li:last-child::after {
+.kapcsolat h2:last-child::after {
   content: "";
 }
 
@@ -388,4 +398,16 @@ footer{
     .leiraskicsi{top: 50%; right: 5%; font-size: 1.3rem;}
     .leiraszoveg{margin-left: 5%; font-size: 1.2rem;}
     .telefon{font-size: 1.4rem;}
-   }
+    .cuccok{flex-direction: column; margin-left: 15%; margin-right: 15%; padding: 5%; }
+    .italok, .pizza, .menü{margin-top: 10%; padding: 6% 10% 6% 10%;}
+    .nyitvatartás{width: 100%; margin-left: 2%; padding: 0;}
+    footer{display: block;}
+    .footcim{width: 95%;}
+    .jobbfoot{width: 90%;}
+
+}
+   
+
+@media (max-width: 900px) { 
+    .fejlec{flex-direction: column;align-items: flex-end; }
+}

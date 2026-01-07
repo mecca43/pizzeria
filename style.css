@@ -147,7 +147,6 @@ a{
 }
 
 .menucim{
-    font-weight: bold;
     font-size: 25px;
     margin-bottom: 10px;
     
@@ -404,10 +403,23 @@ footer{
     footer{display: block;}
     .footcim{width: 95%;}
     .jobbfoot{width: 90%;}
+    .speckepek{display: block; width: 90%;}
+    .speckepek img{margin-top: 5%;}
+    .speckepek p{font-size: 1.5rem;}
+
+
+    @media (max-width: 550px) {
+        .pizzaa img { height: 25vh; }
+        .vegyes img { height: 30vh; }
+        .voros img  { height: 50vh; margin-top: 10%;}
+        .pizzaaa    { height: 30vh; }
+        .elo img    { height: 26vh; }
+        .speckepek img {width: 100%;object-fit: cover;}
+    }
 
 }
    
 
 @media (max-width: 900px) { 
-    .fejlec{flex-direction: column;align-items: flex-end; }
+    .fejlec{flex-direction: column;align-items: flex-end;}
 }

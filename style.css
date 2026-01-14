@@ -313,15 +313,19 @@ footer{
   }
 
   .jobbfoot{
+    display: flex;
+    flex-direction: column;
+
     margin-top: 4%;
     width: 15%;
     padding: 1%;
-    line-height: 1.5;
+    
   }
 
   .footnagy{
     text-transform: uppercase;
     font-weight: bold;
+    
   }
 
   .foglalas{

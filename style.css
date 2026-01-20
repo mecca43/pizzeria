@@ -248,11 +248,11 @@ a{
     object-fit: cover;
 }
 
-.pizzaa{grid-area: pizzaa;position: relative;}
-.pizzaaa{grid-area: pizzaaa;height: 55%;position: relative;}
-.vegyes{grid-area: vegyes;height: 55%;position: relative;}
-.voros{grid-area: voros;position: relative;}
-.elo{grid-area: elo;height: 54%;position: relative;}
+.pizzaa{grid-area: pizzaa;position: relative;background-image: url(kepek/pizzakep.jpg);}
+.pizzaaa{grid-area: pizzaaa;height: 55%;position: relative;background-image: url(kepek/pizzakep4.jpg);}
+.vegyes{grid-area: vegyes;height: 55%;position: relative;background-image: url(kepek/pizzakep3.jpg);}
+.voros{grid-area: voros;position: relative;background-image: url(kepek/pizzakep2.jpg);}
+.elo{grid-area: elo;height: 54%;position: relative;background-image: url(kepek/pizzakep5.jpg);}
 
 .pizzaa p, .vegyes p, .voros p, .elo p, .pizzaaa p{
     position: absolute;

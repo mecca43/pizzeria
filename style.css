@@ -406,8 +406,8 @@ footer{
 @media (max-width: 550px){
     .leirasnagycim{top: 47%; right: 3%; font-size: 1.7rem;}
     .leiraskicsi{top: 50%; right: 5%; font-size: 1.3rem; margin-top: 3%;}
-    .leiraszoveg{margin-left: 5%; font-size: 1rem; margin-top: 4%;}
-    .telefon{font-size: 1.4rem;}
+    .leiraszoveg{margin-left: 5%; font-size: 0.9rem; margin-top: 4%;}
+    .telefon{font-size: 1.2rem;}
     .cuccok{flex-direction: column; margin-left: 15%; margin-right: 15%; padding: 5%; }
     .italok, .pizza, .menü{margin-top: 10%; padding: 6% 10% 6% 10%;}
     .nyitvatartás{width: 100%; margin-left: 2%; padding: 0;}
